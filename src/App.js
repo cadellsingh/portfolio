@@ -1,25 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from "styled-components";
+import styled from "styled-components";
+import GlobalStyle from "./StylingAndThemes/globalStyles";
+import Nav from "./components/nav";
+import About from "./components/about";
+import { useDarkMode } from "./StylingAndThemes/darkMode";
+import { darkTheme, lightTheme } from "./StylingAndThemes/themes";
+import { ParticleBackground } from "./StylingAndThemes/particles";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
 
-function App() {
+const Container = styled.div`
+  width: 100%;
+  position: relative;
+`;
+
+const Layout = styled.div`
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+
+  @media (max-width: 1055px) {
+    width: 75%;
+  }
+
+  @media (max-width: 955px) {
+    width: 85%;
+  }
+`;
+
+const App = () => {
+  const [theme, setTheme] = useDarkMode();
+
+  const themeToggler = () => {
+    theme === "dark" ? setTheme("light") : setTheme("dark");
+  };
+
+  const themeMode = theme === "dark" ? darkTheme : lightTheme;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={themeMode}>
+      <>
+        <Container>
+          <ParticleBackground />
+          <Layout>
+            <GlobalStyle />
+            <Nav theme={theme} themeToggler={themeToggler} />
+            <About />
+            <Projects />
+            <Skills />
+          </Layout>
+        </Container>
+      </>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
