@@ -20,12 +20,12 @@ const Details = styled.div`
   font-size: 20px;
   color: ${({ theme }) => theme.aboutTextColor};
 
-  & h1 {
-    color: ${({ theme }) => theme.color};
+  & p {
+    font-weight: bold;
   }
 
   & p:nth-child(2n) {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 30px;
   }
 `;

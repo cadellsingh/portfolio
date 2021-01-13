@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Project = styled.div`
-  & h2 {
+  & h3 {
     margin-top: 10px;
+    font-size: 20px;
   }
 
   & img {
@@ -36,15 +37,18 @@ const EachProject = ({ img, title, liveLink, githubLink }) => {
   return (
     <Project>
       <img src={img} alt={title} />
-      <h2>{title}</h2>
+      <h3>{title}</h3>
       <ul>
-        <a href={liveLink} target="_blank" rel="noreferrer">
-          <li>live</li>
-        </a>
-        <a href={githubLink} target="_blank" rel="noreferrer">
-          {" "}
-          <li>github</li>
-        </a>
+        <li>
+          <a href={liveLink} target="_blank" rel="noreferrer">
+            live
+          </a>
+        </li>
+        <li>
+          <a href={githubLink} target="_blank" rel="noreferrer">
+            github
+          </a>
+        </li>
       </ul>
     </Project>
   );

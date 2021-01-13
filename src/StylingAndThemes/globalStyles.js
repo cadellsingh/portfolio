@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   a {
-    color: ${({ theme }) => theme.color};;
+    color: ${({ theme }) => theme.color};
     text-decoration: none;
   }
   

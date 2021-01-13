@@ -17,13 +17,17 @@ const Header = styled.h1`
   & span {
     color: #ffd700;
   }
+
+  @media (max-width: 400px) {
+    font-size: 25px;
+  }
 `;
 
 const TypingEffect = () => {
   return (
     <div>
+      hi 👋🏽, i'm{" "}
       <Header>
-        hi 👋🏽, i'm{" "}
         <ReactTypingEffect
           text={about}
           speed={50}

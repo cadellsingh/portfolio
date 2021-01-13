@@ -10,7 +10,7 @@ export const ParticleBackground = () => {
       params={{
         particles: {
           number: {
-            value: 200,
+            value: 300,
             density: {
               enable: true,
               value_area: 1803.4120608655228,
@@ -26,7 +26,7 @@ export const ParticleBackground = () => {
               color: "#000000",
             },
             polygon: {
-              nb_sides: 4,
+              nb_sides: 3,
             },
           },
           opacity: {
@@ -40,7 +40,7 @@ export const ParticleBackground = () => {
             },
           },
           size: {
-            value: 2.5,
+            value: 3.5,
             random: true,
             anim: {
               enable: false,

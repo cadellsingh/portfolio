@@ -4,6 +4,7 @@ import DayCadell from "../images/dayCadell.png";
 import NightCadell from "../images/night-cadell.png";
 
 const StyledNav = styled.nav`
+  //transition: all 0.7s ease-in;
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
@@ -23,8 +24,8 @@ const Links = styled.ul`
   font-size: 25px;
   font-weight: 700;
 
-  & li:nth-child(2n) {
-    margin: 0 20px;
+  & li:first-child {
+    margin-right: 20px;
   }
 
   & li:hover {
@@ -44,7 +45,6 @@ const Nav = ({ theme, themeToggler }) => {
         />
       </Emoji>
       <Links>
-        <li>about</li>
         <li>projects</li>
         <li>skills</li>
       </Links>

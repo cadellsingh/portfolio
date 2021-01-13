@@ -8,6 +8,7 @@ import { darkTheme, lightTheme } from "./StylingAndThemes/themes";
 import { ParticleBackground } from "./StylingAndThemes/particles";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
+import Footer from "./components/footer";
 
 const Container = styled.div`
   width: 100%;
@@ -49,6 +50,7 @@ const App = () => {
             <About />
             <Projects />
             <Skills />
+            <Footer />
           </Layout>
         </Container>
       </>

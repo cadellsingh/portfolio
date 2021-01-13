@@ -8,8 +8,9 @@ import NumberSystem from "../images/number-system-conversion.png";
 import EachProject from "./eachProject";
 
 const Container = styled.div`
-  & h1 {
+  & h2 {
     margin: 40px 0;
+    font-size: 30px;
   }
 `;
 
@@ -27,7 +28,7 @@ const ProjectsContainer = styled.div`
 const Projects = () => {
   return (
     <Container>
-      <h1>projects</h1>
+      <h2>projects</h2>
       <ProjectsContainer>
         <EachProject
           githubLink="https://github.com/cadellsingh/devJobs"

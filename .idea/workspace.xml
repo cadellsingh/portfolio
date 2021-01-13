@@ -2,32 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d3c098-0b8f-40bf-bd9f-3b3ab2ef064f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StylingAndThemes/darkMode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StylingAndThemes/globalStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StylingAndThemes/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StylingAndThemes/themes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/eachProject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/typingEffect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/IMG_4985.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/all-in-one-sports.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/covid-tracker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/dayCadell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/devjobs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/night-cadell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/number-system-conversion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/todo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/eachSkill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StylingAndThemes/globalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StylingAndThemes/globalStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StylingAndThemes/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StylingAndThemes/particles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StylingAndThemes/themes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StylingAndThemes/themes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/eachProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/eachProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typingEffect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typingEffect.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +50,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -97,6 +87,7 @@
       <workItem from="1610485912385" duration="2096000" />
       <workItem from="1610494354133" duration="155000" />
       <workItem from="1610494563515" duration="7103000" />
+      <workItem from="1610564923460" duration="9823000" />
     </task>
     <servers />
   </component>
