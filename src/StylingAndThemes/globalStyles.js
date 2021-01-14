@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
   html,body {
     height: 100%;
     transition: all .50s linear;
+    scroll-behavior: smooth;
   }
   
   body {

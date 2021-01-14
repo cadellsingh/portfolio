@@ -27,7 +27,7 @@ const ProjectsContainer = styled.div`
 
 const Projects = () => {
   return (
-    <Container>
+    <Container id="projects">
       <h2>projects</h2>
       <ProjectsContainer>
         <EachProject

@@ -41,12 +41,11 @@ const IconsContainer = styled.div`
 
 const Skills = () => {
   return (
-    <Container>
+    <Container id="skills">
       <h2>skills</h2>
       <IconsContainer>
         <EachSkill icon={faHtml5} skill="html5" />
         <EachSkill icon={faCss3} skill="css3" />
-        {/*<EachSkill icon={faJs} skill="javascript" />*/}
         <EachSkill icon={faReact} skill="react" />
         <EachSkill icon={faJs} skill="javascript" />
         <EachSkill icon={faGitAlt} skill="git" />

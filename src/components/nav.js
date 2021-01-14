@@ -45,8 +45,12 @@ const Nav = ({ theme, themeToggler }) => {
         />
       </Emoji>
       <Links>
-        <li>projects</li>
-        <li>skills</li>
+        <a href="#projects">
+          <li>projects</li>
+        </a>
+        <a href="#skills">
+          <li>skills</li>
+        </a>
       </Links>
     </StyledNav>
   );
