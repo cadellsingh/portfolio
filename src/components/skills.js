@@ -13,6 +13,7 @@ import {
   faUniversalAccess,
 } from "@fortawesome/free-solid-svg-icons";
 import EachSkill from "./eachSkill";
+import "aos/dist/aos.css";
 
 const Container = styled.div`
   & h2 {
@@ -41,18 +42,26 @@ const IconsContainer = styled.div`
 
 const Skills = () => {
   return (
-    <Container id="skills">
+    <Container id="skills" data-aos="zoom-out-up">
       <h2>skills</h2>
       <IconsContainer>
-        <EachSkill icon={faHtml5} skill="html5" />
-        <EachSkill icon={faCss3} skill="css3" />
-        <EachSkill icon={faReact} skill="react" />
-        <EachSkill icon={faJs} skill="javascript" />
-        <EachSkill icon={faGitAlt} skill="git" />
-        <EachSkill icon={faGithub} skill="github" />
-        <EachSkill icon={faNpm} skill="npm" />
-        <EachSkill icon={faMobileAlt} skill="responsive design" />
-        <EachSkill icon={faUniversalAccess} skill="accessibility" />
+        <EachSkill icon={faHtml5} skill="html5" direction="zoom-out-up" />
+        <EachSkill icon={faCss3} skill="css3" direction="zoom-out-up" />
+        <EachSkill icon={faReact} skill="react" direction="zoom-out-up" />
+        <EachSkill icon={faJs} skill="javascript" direction="zoom-out-up" />
+        <EachSkill icon={faGitAlt} skill="git" direction="zoom-out-up" />
+        <EachSkill icon={faGithub} skill="github" direction="zoom-out-up" />
+        <EachSkill icon={faNpm} skill="npm" direction="zoom-out-up" />
+        <EachSkill
+          icon={faMobileAlt}
+          skill="responsive design"
+          direction="zoom-out-up"
+        />
+        <EachSkill
+          icon={faUniversalAccess}
+          skill="accessibility"
+          direction="zoom-out-up"
+        />
       </IconsContainer>
     </Container>
   );

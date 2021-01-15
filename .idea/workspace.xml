@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a2d3c098-0b8f-40bf-bd9f-3b3ab2ef064f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StylingAndThemes/globalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StylingAndThemes/globalStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/eachProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/eachProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/eachSkill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/eachSkill.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills.js" afterDir="false" />
     </list>
@@ -16,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -82,7 +97,7 @@
       <workItem from="1610494354133" duration="155000" />
       <workItem from="1610494563515" duration="7103000" />
       <workItem from="1610564923460" duration="9853000" />
-      <workItem from="1610648208768" duration="2174000" />
+      <workItem from="1610648208768" duration="8508000" />
     </task>
     <servers />
   </component>

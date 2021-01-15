@@ -8,7 +8,7 @@ const Project = styled.div`
   }
 
   & img {
-    border-radius: 15px;
+    border-radius: 10px;
     max-width: 100%;
     height: auto;
   }
@@ -33,9 +33,13 @@ const Project = styled.div`
   }
 `;
 
-const EachProject = ({ img, title, liveLink, githubLink }) => {
+const EachProject = ({ img, title, liveLink, githubLink, direction }) => {
   return (
-    <Project>
+    <Project
+      data-aos={direction}
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1500"
+    >
       <img src={img} alt={title} />
       <h3>{title}</h3>
       <ul>

@@ -6,6 +6,7 @@ import DevJobs from "../images/devjobs.png";
 import Todo from "../images/todo.png";
 import NumberSystem from "../images/number-system-conversion.png";
 import EachProject from "./eachProject";
+import "aos/dist/aos.css";
 
 const Container = styled.div`
   & h2 {
@@ -35,30 +36,35 @@ const Projects = () => {
           img={DevJobs}
           liveLink="https://devjobss.netlify.app/"
           title="devjobs"
+          direction="fade-right"
         />
         <EachProject
           githubLink="https://github.com/cadellsingh/converter"
           img={NumberSystem}
           liveLink="https://numbersystemconversion.netlify.app/"
           title="numberSystemConversion"
+          direction="fade-left"
         />
         <EachProject
           githubLink="https://github.com/cadellsingh/All-in-one-sports-page"
           img={AllInOne}
           liveLink="https://all-in-one-sports.netlify.app/"
           title="allInOne"
+          direction="fade-right"
         />
         <EachProject
           githubLink="https://github.com/cadellsingh/covid-19-tracker"
           img={CovidTracker}
           liveLink="https://cadellsingh-covid-19-tracker.netlify.app/"
           title="covidTracker"
+          direction="fade-left"
         />
         <EachProject
           githubLink="https://github.com/cadellsingh/todoList"
           img={Todo}
           liveLink="https://cadellsingh-todolist.netlify.app/"
           title="todo"
+          direction="fade-right"
         />
       </ProjectsContainer>
     </Container>

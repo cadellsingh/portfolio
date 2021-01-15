@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import Cadell from "../images/IMG_4985.png";
 import TypingEffect from "./typingEffect";
+import "aos/dist/aos.css";
 
 const Container = styled.div`
   display: grid;
@@ -49,7 +50,7 @@ const ImageContainer = styled.div`
 
 const About = () => {
   return (
-    <Container>
+    <Container data-aos="zoom-in-up" data-aos-easing="ease-in-out-back">
       <Details>
         <TypingEffect />
 

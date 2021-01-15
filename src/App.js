@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { ThemeProvider } from "styled-components";
 import styled from "styled-components";
 import GlobalStyle from "./StylingAndThemes/globalStyles";
@@ -9,6 +10,7 @@ import { ParticleBackground } from "./StylingAndThemes/particles";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
 import Footer from "./components/footer";
+import Aos from "aos";
 
 const Container = styled.div`
   width: 100%;
@@ -31,6 +33,10 @@ const Layout = styled.div`
 `;
 
 const App = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const [theme, setTheme] = useDarkMode();
 
   const themeToggler = () => {
