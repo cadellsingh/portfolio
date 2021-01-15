@@ -46,11 +46,7 @@ const SkillContainer = styled.div`
 
 const EachSkill = ({ skill, icon, direction }) => {
   return (
-    <SkillContainer
-      data-aos={direction}
-      data-aos-easing="ease-in-out"
-      // data-aos-duration="2500"
-    >
+    <SkillContainer data-aos={direction} data-aos-easing="ease-in-out">
       <p>{skill}</p>
       <span>
         <FontAwesomeIcon icon={icon} />

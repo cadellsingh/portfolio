@@ -4,7 +4,6 @@ import DayCadell from "../images/dayCadell.png";
 import NightCadell from "../images/night-cadell.png";
 
 const StyledNav = styled.nav`
-  //transition: all 0.7s ease-in;
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
