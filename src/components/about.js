@@ -74,7 +74,7 @@ const About = () => {
         <p>
           apart from web development, my other interests include anything music
           related, gaming, rewatching episodes of the office & talking/watching
-          basketball. on an unrelated note.
+          basketball.
         </p>
       </Details>
 
