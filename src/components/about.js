@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Cadell from "../images/IMG_4985.png";
+import Cadell from "../images/Cadelly.jpg";
 import TypingEffect from "./typingEffect";
 import "aos/dist/aos.css";
 
@@ -29,6 +29,12 @@ const Details = styled.div`
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  @media(min-width: 1500px) {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 3px;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -50,7 +56,10 @@ const ImageContainer = styled.div`
 
 const About = () => {
   return (
-    <Container data-aos="zoom-in-up" data-aos-easing="ease-in-out-back">
+    <Container 
+    data-aos="zoom-in-up" 
+    data-aos-easing="ease-in-out-back"
+    >
       <Details>
         <TypingEffect />
 
@@ -64,12 +73,7 @@ const About = () => {
         <p>
           apart from web development, my other interests include anything music
           related, gaming, rewatching episodes of the office & talking/watching
-          basketball. on an unrelated note, pineapples do belong on
-          <span role="img" aria-label="pizza">
-            {" "}
-            🍕
-          </span>
-          .
+          basketball. on an unrelated note.
         </p>
       </Details>
 

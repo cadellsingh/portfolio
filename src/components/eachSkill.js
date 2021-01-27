@@ -19,6 +19,10 @@ const SkillContainer = styled.div`
     font-size: 60px;
   }
 
+  @media(min-width: 1500px) {
+    padding: 70px 0;
+  }
+
   @media (max-width: 600px) {
     padding: 20px;
 

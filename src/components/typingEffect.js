@@ -4,7 +4,7 @@ import ReactTypingEffect from "react-typing-effect";
 
 const about = [
   "cadell singh",
-  "a front end dev",
+  "a software engineer",
   "a tech enthusiast",
   "a lifelong student",
   "a believer",
