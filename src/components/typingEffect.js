@@ -21,6 +21,10 @@ const Header = styled.h1`
   @media (max-width: 400px) {
     font-size: 25px;
   }
+
+  @media (max-width: 330px) {
+    font-size: 23px;
+  }
 `;
 
 const TypingEffect = () => {

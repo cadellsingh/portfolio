@@ -11,6 +11,7 @@ const Container = styled.div`
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
     grid-row-gap: 15px;
+    width: 100%;
   }
 `;
 

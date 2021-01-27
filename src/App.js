@@ -30,6 +30,10 @@ const Layout = styled.div`
   @media (max-width: 955px) {
     width: 85%;
   }
+
+  @media (max-width: 330px) {
+    width: 95%;
+  }
 `;
 
 const App = () => {
