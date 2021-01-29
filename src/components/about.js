@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Cadell from "../images/Cadelly.jpg";
 import TypingEffect from "./typingEffect";
 import "aos/dist/aos.css";
+import Img from "react-cool-img";
+
 
 const Container = styled.div`
   display: grid;
@@ -79,7 +81,7 @@ const About = () => {
       </Details>
 
       <ImageContainer>
-        <img src={Cadell} alt="Cadell" />
+        <Img src={Cadell} alt="Cadell" cache/>
       </ImageContainer>
     </Container>
   );
