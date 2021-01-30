@@ -41,15 +41,33 @@ const Details = styled.div`
 `;
 
 const ImageContainer = styled.div`
+text-align: center;
+
   & img {
     border-radius: 10px;
-    max-width: 100%;
+    width: 450px;
     height: auto;
+  }
+
+  @media (min-width: 1500px) {
+    & img {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    & img {
+      width: 350px;
+    }
   }
 
   @media (max-width: 900px) {
     width: 70%;
     margin: 20px auto;
+
+    & img {
+      max-width: 100%;
+    }
   }
 
   @media (max-width: 700px) {
@@ -60,8 +78,8 @@ const ImageContainer = styled.div`
 const About = () => {
   return (
     <Container 
-    data-aos="zoom-in-up" 
-    data-aos-easing="ease-in-out-back"
+    // data-aos="zoom-in-up" 
+    // data-aos-easing="ease-in-out-back"
     >
       <Details>
         <TypingEffect />
