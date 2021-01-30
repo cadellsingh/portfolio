@@ -78,8 +78,8 @@ text-align: center;
 const About = () => {
   return (
     <Container 
-    // data-aos="zoom-in-up" 
-    // data-aos-easing="ease-in-out-back"
+    data-aos="zoom-in-up" 
+    data-aos-easing="ease-in-out-back"
     >
       <Details>
         <TypingEffect />
