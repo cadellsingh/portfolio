@@ -6,7 +6,6 @@ import Nav from "./components/nav";
 import About from "./components/about";
 import { useDarkMode } from "./StylingAndThemes/darkMode";
 import { darkTheme, lightTheme } from "./StylingAndThemes/themes";
-import { ParticleBackground } from "./StylingAndThemes/particles";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
 import Footer from "./components/footer";
@@ -53,7 +52,6 @@ const App = () => {
     <ThemeProvider theme={themeMode}>
       <>
         <Container>
-          <ParticleBackground />
           <Layout>
             <GlobalStyle />
             <Nav theme={theme} themeToggler={themeToggler} />
