@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Img from "react-cool-img";
 
 const Project = styled.div`
   & h3 {
@@ -40,7 +41,7 @@ const EachProject = ({ img, title, liveLink, githubLink, direction }) => {
       data-aos-easing="ease-in-out"
       data-aos-duration="1500"
     >
-      <img src={img} alt={title} />
+      <Img src={img} alt={title} />
       <h3>{title}</h3>
       <ul>
         <li>
