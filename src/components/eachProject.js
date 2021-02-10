@@ -35,6 +35,8 @@ const Project = styled.div`
 `;
 
 const EachProject = ({ img, title, liveLink, githubLink, direction }) => {
+  direction = direction % 2 === 0 ? "fade-left" : "fade-right";
+
   return (
     <Project
       data-aos={direction}
